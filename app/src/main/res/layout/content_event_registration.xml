@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EventRegistrationActivity.EventRegistrationActivity"
+    tools:showIn="@layout/activity_event_registration">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--&lt;!&ndash; contact event menu &ndash;&gt;-->
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:padding="14dp"-->
+        <!--android:layout_marginTop="10dp">-->
+
+        <!--&lt;!&ndash; first layout &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/semibold"-->
+            <!--android:text="Note: "-->
+            <!--android:textColor="@color/titleTextColor"-->
+            <!--android:textSize="14dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/semibold"-->
+            <!--android:text="After the registeration you need to pay the amount to ther cordinator with in one day"-->
+            <!--android:textColor="@color/textColor"-->
+            <!--android:id="@+id/adapter_contact_name"-->
+            <!--android:textSize="16dp"/>-->
+
+        <!--&lt;!&ndash; event &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/semibold"-->
+            <!--android:text="Select Event"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/titleTextColor"-->
+            <!--android:textSize="14dp"/>-->
+
+      <!--&lt;!&ndash;  <Spinner-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="@drawable/edit_text_layout">-->
+
+        <!--</Spinner>&ndash;&gt;-->
+
+        <!--&lt;!&ndash; name &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/semibold"-->
+            <!--android:text="Name"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/titleTextColor"-->
+            <!--android:textSize="14dp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:hint="Milan shrestha"-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:background="@drawable/edit_text_layout"/>-->
+
+        <!--&lt;!&ndash; Branch &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/semibold"-->
+            <!--android:text="Branch"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/titleTextColor"-->
+            <!--android:textSize="14dp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:hint="CSE"-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:background="@drawable/edit_text_layout"/>-->
+
+
+        <!--&lt;!&ndash; Phone Number &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/semibold"-->
+            <!--android:text="Phone Number"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/titleTextColor"-->
+            <!--android:textSize="14dp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:hint="90875645753"-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:background="@drawable/edit_text_layout"/>-->
+
+        <!--&lt;!&ndash; Year &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/semibold"-->
+            <!--android:text="Year"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/titleTextColor"-->
+            <!--android:textSize="14dp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:hint="1st year"-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:background="@drawable/edit_text_layout"/>-->
+
+        <!--&lt;!&ndash; Message &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/semibold"-->
+            <!--android:text="Message"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/titleTextColor"-->
+            <!--android:textSize="14dp"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:hint="ads kasd lkans dlasd alskd asldasdkla sdaslkd "-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:background="@drawable/edit_text_layout"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<Button-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:fontFamily="@font/semibold"-->
+        <!--android:background="@color/greenBtnColor"-->
+        <!--android:elevation="3dp"-->
+        <!--android:textSize="16dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:text="Proceed"/>-->
+
+    <!--</ScrollView>-->
+</RelativeLayout>

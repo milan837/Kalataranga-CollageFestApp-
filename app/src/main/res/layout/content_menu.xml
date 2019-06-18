@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Menu.MenuActivity"
+    tools:showIn="@layout/activity_menu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="14dp"
+        android:id="@+id/about_collage"
+        android:layout_marginTop="5dp"
+        android:background="#FFF">
+
+        <RelativeLayout
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:background="@drawable/circle_layout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/developer_icon"
+                    android:elevation="10dp"
+                    android:src="@drawable/collage_logo"/>
+
+                    <!-- first layout -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/semibold"
+                        android:text="About Institutions"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/textColor"
+                        android:textSize="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- second kalataranga -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="14dp"
+        android:id="@+id/about_kalataranga"
+        android:layout_marginTop="5dp"
+        android:background="#FFF">
+
+        <RelativeLayout
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:background="@drawable/circle_layout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:elevation="10dp"
+                    android:src="@drawable/kalataranga_icon"/>
+
+                <!-- first layout -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibold"
+                    android:text="About Kalatarranga"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <!-- About Developer-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="14dp"
+        android:id="@+id/about_developer"
+        android:layout_marginTop="5dp"
+        android:background="#FFF">
+
+        <RelativeLayout
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:background="@drawable/circle_layout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:elevation="10dp"
+                    android:src="@drawable/developers"/>
+
+                <!-- first layout -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibold"
+                    android:text="About Developer"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="14dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFF"
+        android:id="@+id/review_app">
+
+        <RelativeLayout
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:background="@drawable/circle_layout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:elevation="10dp"
+                    android:src="@drawable/sh"/>
+
+                <!-- first layout -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibold"
+                    android:text="Review App"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="16dp"
+    android:layout_marginTop="10dp"
+    android:background="#FFF">
+
+    <RelativeLayout
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:background="@drawable/circle_layout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- first layout-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Time Duration"
+            android:textColor="@color/titleTextColor"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="9:30 am - 12:00 pm"
+            android:textColor="@color/textColor"
+            android:id="@+id/adapter_event_time_duration"
+            android:textSize="16dp"/>
+
+        <!-- second layout-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Event Title"
+            android:textColor="@color/titleTextColor"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Photography"
+            android:id="@+id/adapter_event_name"
+            android:textColor="@color/textColor"
+            android:textSize="18dp"/>
+
+        <!-- third layout-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Venue"
+            android:textColor="@color/titleTextColor"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Seminar Hall (Mechanical Block RRIT)"
+            android:textColor="@color/textColor"
+            android:id="@+id/adapter_event_venue"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

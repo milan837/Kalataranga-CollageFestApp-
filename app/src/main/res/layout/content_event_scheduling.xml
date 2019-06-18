@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_below="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EventSchedulingDetails.EventSchedulingActivity"
+    tools:showIn="@layout/activity_event_scheduling">
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablayout"
+        android:elevation="3dp"
+        android:background="@color/themeColor"
+        app:tabSelectedTextColor="#FFF"
+        app:tabTextColor="#EEE"
+        app:tabMode="scrollable"
+        android:scrollbars="none"
+        app:tabTextAppearance="@style/tab_text"
+        app:tabIndicatorColor="#FFF">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewpager">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

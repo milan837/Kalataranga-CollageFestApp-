@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Kalatarange</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="all_events">All \nEvents</string>
+    <string name="events_scheduling">Events \Scheduling</string>
+    <string name="event_registeration">Events \nRegisteration</string>
+    <string name="facebook">Find us on \nfacebook</string>
+    <string name="youtube">Find us on \nyoutube</string>
+    <string name="developer">Developer \nDetails</string>
+    <string name="title_activity_event_scheduling">EventSchedulingActivity</string>
+    <string name="title_activity_all_event">AllEventActivity</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+    <string name="title_activity_event_registration">EventRegistrationActivity</string>
+    <string name="title_activity_about_kalatarang">AboutKalatarangActivity</string>
+    <string name="title_activity_about_instutions">AboutInstutionsActivity</string>
+    <string name="title_activity_about_developers">AboutDevelopersActivity</string>
+    <string name="title_activity_event_register">EventRegisterActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+</resources>

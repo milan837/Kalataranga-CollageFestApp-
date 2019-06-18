@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AboutKalatarangaActivity.AboutKalatarangActivity"
+    tools:showIn="@layout/activity_about_kalatarang">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- contact event menu -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="14dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF">
+
+        <!-- first layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="About Kalataranga"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/titleTextColor"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="Kalatarranga is a cultural event that inaugurates on 9th March and continues up to 30th March.The main theme of the event is to bring up the talents throughout the college."
+            android:textColor="@color/textColor"
+            android:id="@+id/adapter_contact_name"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Indoor Events: 9th - 16th March"
+            android:textColor="@color/textColor"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Off Stage Events: 15th - 28th March"
+            android:textColor="@color/textColor"
+            android:textSize="12dp"/>
+
+
+    </LinearLayout>
+
+
+        <!-- contact staff cordinator -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibold"
+                android:text="Staff Cordinator"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/titleTextColor"
+                android:textSize="14dp"/>
+
+            <!-- first cordinator -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibold"
+                    android:text="Mr.Sumanth"
+                    android:textColor="@color/textColor"
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:layout_marginTop="8dp"
+                    android:layout_width="120dp"
+                    android:layout_height="38dp"
+                    android:fontFamily="@font/semibold"
+                    android:background="@drawable/green_button"
+                    android:id="@+id/suman_call_btn"
+                    android:elevation="3dp"
+                    android:textSize="14dp"
+                    android:textColor="#FFF"
+                    android:text="Call"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <!-- second cordinator -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibold"
+                    android:text="Mr.Uttam Roy"
+                    android:textColor="@color/textColor"
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:layout_marginTop="8dp"
+                    android:layout_width="120dp"
+                    android:layout_height="38dp"
+                    android:fontFamily="@font/semibold"
+                    android:background="@drawable/green_button"
+                    android:elevation="3dp"
+                    android:textSize="14dp"
+                    android:id="@+id/uttam_call_btn"
+                    android:textColor="#FFF"
+                    android:text="Call"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <!-- first cordinator -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibold"
+                    android:text="Mrs.Vani K"
+                    android:textColor="@color/textColor"
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:layout_marginTop="8dp"
+                    android:layout_width="120dp"
+                    android:layout_height="38dp"
+                    android:fontFamily="@font/semibold"
+                    android:background="@drawable/green_button"
+                    android:elevation="3dp"
+                    android:textSize="14dp"
+                    android:id="@+id/vani_call_btn"
+                    android:textColor="#FFF"
+                    android:text="Call"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- contact student cordinator -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibold"
+                android:text="Student Coordinator"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/titleTextColor"
+                android:textSize="14dp"/>
+
+            <!-- first cordinator -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibold"
+                    android:text="Rakshitha"
+                    android:textColor="@color/textColor"
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:layout_marginTop="8dp"
+                    android:layout_width="120dp"
+                    android:layout_height="38dp"
+                    android:fontFamily="@font/semibold"
+                    android:background="@drawable/green_button"
+                    android:elevation="3dp"
+                    android:id="@+id/rakshitha_call_btn"
+                    android:textSize="14dp"
+                    android:textColor="#FFF"
+                    android:text="Call"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+            <!--&lt;!&ndash; second cordinator &ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_marginBottom="33dp"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="3dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:fontFamily="@font/semibold"-->
+                    <!--android:text="Anil Shrestha"-->
+                    <!--android:textColor="@color/textColor"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<Button-->
+                    <!--android:layout_width="120dp"-->
+                    <!--android:layout_height="38dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@drawable/green_button"-->
+                    <!--android:elevation="3dp"-->
+                    <!--android:fontFamily="@font/semibold"-->
+                    <!--android:text="Call"-->
+                    <!--android:textColor="#FFF"-->
+                    <!--android:textSize="14dp" />-->
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

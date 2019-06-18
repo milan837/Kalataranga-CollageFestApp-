@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="14dp"
+    android:layout_marginTop="5dp"
+    android:background="#FFF">
+
+    <RelativeLayout
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:background="@drawable/circle_layout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/developer_icon"
+            android:elevation="10dp"
+            android:src="@drawable/events"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <!-- first layout -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibold"
+                android:text="Event Title"
+                android:textColor="@color/titleTextColor"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:text="Air Crash"
+                android:textColor="@color/textColor"
+                android:id="@+id/adapter_event_name"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- second layout-->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Summary"
+            android:textColor="@color/titleTextColor"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:id="@+id/adapter_event_summary"
+            android:textColor="@color/textColor"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
